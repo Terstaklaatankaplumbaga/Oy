@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yovarlak Oyunu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Yovarlak Oyunu</h1>
+    </header>
+    <main>
+        <div class="game-container">
+            <div class="inventory">
+                <h3>Envanter</h3>
+                <div id="weapon-selection">
+                    <h4>Silah Seçin</h4>
+                    <button onclick="selectWeapon('cekic')">Çekiç</button>
+                    <button onclick="selectWeapon('kucuk-bicak')">Küçük Bıçak</button>
+                    <!-- Diğer silahlar için butonlar ekleyebilirsiniz -->
+                </div>
+            </div>
+            <div id="game-area">
+                <h2>Doğada Vurulacak Materyaller</h2>
+                <!-- Materyal oluşturulacak alan -->
+                <div id="materials"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Yovarlak Oyunu - 2025</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
